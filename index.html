@@ -1,61 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cv Jos</title>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <link rel="stylesheet" href="style.css">
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-</head>
-<body>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <video autoplay loop muted plays-inline class="back-vid">
-        <source src="./assets/img/galaxy.mp4" type="video/mp4">
+      <source src="./assets/img/galaxy.mp4" type="video/mp4" />
     </video>
     <section class="main-section">
-        <nav>
-            <h1><span style="color: #4acfee;">Cv</span>Jos</h1>
-            <ul>
-                <li><a class="active" href="#">Sobre mi</a></li>
-                <li><a href="#">Proyectos</a></li>
-                <li><a href="#">Formación</a></li>
-                <li><a href="#">Experiencia</a></li>
-                <li><a href="#">Contacto</a></li>
+      <nav>
+        <h1 data-aos="zoom-in" data-aos-duration="1000"><span style="color: #4acfee">Cv </span>Jos</h1>
+        <ul>
+          <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"><a class="active" href="#">Sobre mi</a></li>
+          <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><a href="#">Proyectos</a></li>
+          <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><a href="#">Formación</a></li>
+          <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"><a href="#">Experiencia</a></li>
+          <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <div class="hero">
+        <div class="hero-info">
+          <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="700">Mi nombre es Joselyn Silva Villarroel</h1>
+          <h2 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="900">
+            Yo soy Tecnóloga Informática Biomédica con experiencia en UX
+            Research y estudiante de Full Stack JavaScript.
+          </h2>
+          <p data-aos="flip-down" data-aos-duration="1000" data-aos-delay="1000">
+            Apasionada por crear soluciones tecnológicas intuitivas que mejoren
+            la vida de las personas. Me motiva la idea de utilizar la tecnología
+            para construir un futuro más fácil y conectado para todos.
+          </p>
+          <div class="buttons">
+            <button class="btn" data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="1100">Contáctame</button>
+            <ul class="ul-icons">
+              <li>
+                <a href="" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1200"><i class="bx bxl-github"></i></a>
+              </li>
+              <li>
+                <a href="" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1300"><i class="bx bxl-linkedin"></i></a>
+              </li>
+              <li>
+                <a href="" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1400"><i class="bx bxl-gmail"></i></a>
+              </li>
+              <li>
+                <a href="" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1500"><i class="bx bxl-whatsapp"></i></a>
+              </li>
             </ul>
-        </nav>
-
-        <div class="hero">
-            <div class="hero-info">
-                <h1>Mi nombre es Joselyn Silva Villarroel</h1>
-                <h2>Yo soy Tecnóloga Informática
-                    Biomédica con experiencia en
-                    UX Research y estudiante de
-                    Full Stack JavaScript.</h2>
-                <p>Apasionada por crear
-                    soluciones tecnológicas
-                    intuitivas que mejoren la vida
-                    de las personas. Me motiva la
-                    idea de utilizar la tecnología
-                    para construir un futuro más
-                    fácil y conectado para todos.</p>
-                <div class="buttons">
-                    <button class="btn">Contáctame</button>
-                    <ul class="ul-icons">
-                        <li><a href=""><i class="bx bxl-github"></i></a></li>
-                        <li><a href=""><i class="bx bxl-linkedin"></i></a></li>
-                        <li><a href=""><i class="bx bxl-gmail"></i></a></li>
-                        <li><a href=""><i class="bx bxl-whatsapp"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="hero-img">
-                <img src="./assets/img/yo.png" alt="Mi imagen">
-            </div>
+          </div>
         </div>
 
-        <!--
+        <div class="hero-img" data-aos="zoom-in-left" data-aos-duration="2500">
+          <img src="./assets/img/yo.png" alt="Mi imagen" />
+        </div>
+      </div>
+
+      <!--
         <div class="info-sec">
+            <h2>Skills</h2>
             <div class="info-card">
                 <img src="assets/img/icon_html.png" alt="HTML Logo" class="img-fluid my-3 icon_img">
             </div>
@@ -85,6 +95,10 @@
             </div>
         </div>
         -->
-    </section> 
-</body>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
