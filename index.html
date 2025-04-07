@@ -24,20 +24,29 @@
         <h1 data-aos="zoom-in" data-aos-duration="1000">
           <span style="color: #4acfee">Cv </span>Jos
         </h1>
-        <ul>
+
+        <!--Input checkbox oculto para controlar el menu-->
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+
+        <!--Menu hamburguesa-->
+        <label for="menu-toggle" class="hamburger-btn">
+          <span class="hamburger-line">Sobre mi</span>
+          <span class="hamburger-line">Proyectos</span>
+          <span class="hamburger-line">STrayectoria</span>
+        </label>
+
+        <!--Menu normal-->
+        <ul class="nav-menu">
           <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
             <a class="active" href="#">Sobre mi</a>
           </li>
           <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-            <a href="#">Proyectos</a>
+            <a href="proyectos.html">Proyectos</a>
           </li>
           <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-            <a href="#">Formación</a>
+            <a href="trayectoria.html">Trayectoria</a>
           </li>
           <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-            <a href="#">Experiencia</a>
-          </li>
-          <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
             <a href="#">Contacto</a>
           </li>
         </ul>
