@@ -1,237 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cv Jos</title>
-    <!-- librería AOS JavaScript -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <!-- Mi css -->
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <!-- Iconos -->
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <video autoplay loop muted plays-inline class="back-vid">
-      <source src="./assets/img/galaxy.mp4" type="video/mp4" />
-    </video>
-    <!-- Sección main -->
-    <section class="main-section">
-      <nav>
-        <h1 data-aos="zoom-in" data-aos-duration="1000">
-          <span style="color: #4acfee">Cv </span>Jos
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cv Jos</title>
+  <!-- librería AOS JavaScript -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- Mi css -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <!-- Iconos -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <video autoplay loop muted plays-inline class="back-vid">
+    <source src="./assets/img/galaxy.mp4" type="video/mp4" />
+  </video>
+  <!-- Sección main -->
+  <section class="main-section">
+    <nav>
+      <h1 data-aos="zoom-in" data-aos-duration="1000">
+        <span style="color: #4acfee">Cv </span>Jos
+      </h1>
+
+      <!--Input checkbox oculto para controlar el menu-->
+      <input type="checkbox" id="menu-toggle" class="menu-toggle">
+
+      <!--Menu hamburguesa-->
+      <label for="menu-toggle" class="hamburger-btn">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </label>
+
+      <!--Menu normal-->
+      <ul class="nav-menu">
+        <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+          <a class="active" href="#">Sobre mi</a>
+        </li>
+        <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+          <a href="proyectos.html">Proyectos</a>
+        </li>
+        <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+          <a href="trayectoria.html">Trayectoria</a>
+        </li>
+        <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+          <a href="contacto.html">Contacto</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Sección hero -->
+    <div class="hero">
+      <div class="hero-info">
+        <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="700">
+          Mi nombre es Joselyn Silva Villarroel
         </h1>
-
-        <!--Input checkbox oculto para controlar el menu-->
-        <input type="checkbox" id="menu-toggle" class="menu-toggle">
-
-        <!--Menu hamburguesa-->
-        <label for="menu-toggle" class="hamburger-btn">
-          <span class="hamburger-line"></span>
-          <span class="hamburger-line"></span>
-          <span class="hamburger-line"></span>
-        </label>
-
-        <!--Menu normal-->
-        <ul class="nav-menu">
-          <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-            <a class="active" href="#">Sobre mi</a>
-          </li>
-          <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-            <a href="proyectos.html">Proyectos</a>
-          </li>
-          <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-            <a href="trayectoria.html">Trayectoria</a>
-          </li>
-          <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-            <a href="contacto.html">Contacto</a>
-          </li>
-        </ul>
-      </nav>
-      <!-- Sección hero -->
-      <div class="hero">
-        <div class="hero-info">
-          <h1
-            data-aos="fade-right"
-            data-aos-duration="1000"
-            data-aos-delay="700"
-          >
-            Mi nombre es Joselyn Silva Villarroel
-          </h1>
-          <h2
-            data-aos="fade-left"
-            data-aos-duration="1000"
-            data-aos-delay="900"
-          >
-            Yo soy estudiante de Full Stack JavaScript
-          </h2>
-          <p
-            data-aos="flip-down"
-            data-aos-duration="1000"
-            data-aos-delay="1000"
-          >
-            Tecnóloga Informática Biomédica con experiencia en UX Research.
-            Apasionada por crear soluciones tecnológicas intuitivas que mejoren
-            la vida de las personas. Me motiva la idea de utilizar la tecnología
-            para construir un futuro más fácil y conectado para todos.
-          </p>
-          <div class="buttons">
-            <button
-              class="btn"
-              data-aos="zoom-in-right"
-              data-aos-duration="1000"
-              data-aos-delay="1100"
-            >
-              Contáctame
-            </button>
-            <ul class="ul-icons">
-              <li>
-                <a
-                  href=""
-                  data-aos="fade-up"
-                  data-aos-duration="1000"
-                  data-aos-delay="1200"
-                  ><i class="bx bxl-github"></i
-                ></a>
-              </li>
-              <li>
-                <a
-                  href=""
-                  data-aos="fade-up"
-                  data-aos-duration="1000"
-                  data-aos-delay="1300"
-                  ><i class="bx bxl-linkedin"></i
-                ></a>
-              </li>
-              <li>
-                <a
-                  href=""
-                  data-aos="fade-up"
-                  data-aos-duration="1000"
-                  data-aos-delay="1400"
-                  ><i class="bx bxl-gmail"></i
-                ></a>
-              </li>
-              <li>
-                <a
-                  href=""
-                  data-aos="fade-up"
-                  data-aos-duration="1000"
-                  data-aos-delay="1500"
-                  ><i class="bx bxl-whatsapp"></i
-                ></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="hero-img" data-aos="zoom-in-left" data-aos-duration="2500">
-          <img src="./assets/img/yo-.jpg" alt="Mi imagen" />
+        <h2 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="900">
+          Yo soy estudiante de Full Stack JavaScript
+        </h2>
+        <p data-aos="flip-down" data-aos-duration="1000" data-aos-delay="1000">
+          Tecnóloga Informática Biomédica con experiencia en UX Research.
+          Apasionada por crear soluciones tecnológicas intuitivas que mejoren
+          la vida de las personas. Me motiva la idea de utilizar la tecnología
+          para construir un futuro más fácil y conectado para todos.
+        </p>
+        <div class="buttons">
+          <button class="btn" data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="1100">
+            Contáctame
+          </button>
+          <ul class="ul-icons">
+            <li>
+              <a href="https://github.com/Joselyn-argg" target="_blank" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1200"><i
+                  class="bx bxl-github"></i></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/joselynsilvav/" target="_blank" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1300"><i
+                  class="bx bxl-linkedin"></i></a>
+            </li>
+            <li>
+              <a href="mailto:jos.silvav@gmail.com" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1400"><i
+                  class="bx bxl-gmail"></i></a>
+            </li>
+            <li>
+              <a href="https://wa.me/56952107356" target="_blank" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1500"><i
+                  class="bx bxl-whatsapp"></i></a>
+            </li>
+          </ul>
         </div>
       </div>
-      <!-- Sección Skills -->
-      <section
-        class="skills-section"
-        data-aos="fade-up"
-        data-aos-duration="1000"
-      >
-        <h2 class="skills-title">Skills</h2>
-        <div class="skills-container">
-          <div class="skill-card" data-aos="zoom-in" data-aos-delay="100">
-            <img
-              src="./assets/img/icon_html.png"
-              alt="HTML logo"
-              class="skill-img"
-              loading="lazy"
-            />
-          </div>
-          <div class="skill-card" data-aos="zoom-in" data-aos-delay="200">
-            <img
-              src="./assets/img/icon_css.png"
-              alt="CSS logo"
-              class="skill-img"
-              loading="lazy"
-            />
-          </div>
-          <div class="skill-card" data-aos="zoom-in" data-aos-delay="300">
-            <img
-              src="./assets/img/icon_java.png"
-              alt="JavaScript logo"
-              class="skill-img"
-              loading="lazy"
-            />
-          </div>
-          <div class="skill-card" data-aos="zoom-in" data-aos-delay="400">
-            <img
-              src="./assets/img/icon_bootstrap.png"
-              alt="Bootstrap logo"
-              class="skill-img"
-              loading="lazy"
-            />
-          </div>
-          <div class="skill-card" data-aos="zoom-in" data-aos-delay="500">
-            <img
-              src="./assets/img/icon_visual_studio_code.png"
-              alt="Visual studio code logo"
-              class="skill-img"
-              loading="lazy"
-            />
-          </div>
-          <div class="skill-card" data-aos="zoom-in" data-aos-delay="600">
-            <img
-              src="./assets/img/icon_github.png"
-              alt="Github logo"
-              class="skill-img"
-              loading="lazy"
-            />
-          </div>
-          <div class="skill-card" data-aos="zoom-in" data-aos-delay="700">
-            <img
-              src="./assets/img/icon_jira.png"
-              alt="Jira logo"
-              class="skill-img"
-              loading="lazy"
-            />
-          </div>
-          <div class="skill-card" data-aos="zoom-in" data-aos-delay="800">
-            <img
-              src="./assets/img/icon_notion.png"
-              alt="Notion logo"
-              class="skill-img"
-              loading="lazy"
-            />
-          </div>
-          <div class="skill-card" data-aos="zoom-in" data-aos-delay="900">
-            <img
-              src="./assets/img/icon_slack.png"
-              alt="Slack logo"
-              class="skill-img"
-              loading="lazy"
-            />
-          </div>
-          <div class="skill-card" data-aos="zoom-in" data-aos-delay="1000">
-            <img
-              src="./assets/img/icon_figma.png"
-              alt="Figma logo"
-              class="skill-img"
-              loading="lazy"
-            />
-          </div>
+
+      <div class="hero-img" data-aos="zoom-in-left" data-aos-duration="2500">
+        <img src="./assets/img/yo-.jpg" alt="Mi imagen" />
+      </div>
+    </div>
+    <!-- Sección Skills -->
+    <section class="skills-section" data-aos="fade-up" data-aos-duration="1000">
+      <h2 class="skills-title">Skills</h2>
+      <div class="skills-container">
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="100">
+          <img src="./assets/img/icon_html.png" alt="HTML logo" class="skill-img" loading="lazy" />
         </div>
-      </section>
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="200">
+          <img src="./assets/img/icon_css.png" alt="CSS logo" class="skill-img" loading="lazy" />
+        </div>
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="300">
+          <img src="./assets/img/icon_java.png" alt="JavaScript logo" class="skill-img" loading="lazy" />
+        </div>
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="400">
+          <img src="./assets/img/icon_bootstrap.png" alt="Bootstrap logo" class="skill-img" loading="lazy" />
+        </div>
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="500">
+          <img src="./assets/img/icon_visual_studio_code.png" alt="Visual studio code logo" class="skill-img"
+            loading="lazy" />
+        </div>
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="600">
+          <img src="./assets/img/icon_github.png" alt="Github logo" class="skill-img" loading="lazy" />
+        </div>
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="700">
+          <img src="./assets/img/icon_jira.png" alt="Jira logo" class="skill-img" loading="lazy" />
+        </div>
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="800">
+          <img src="./assets/img/icon_notion.png" alt="Notion logo" class="skill-img" loading="lazy" />
+        </div>
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="900">
+          <img src="./assets/img/icon_slack.png" alt="Slack logo" class="skill-img" loading="lazy" />
+        </div>
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="1000">
+          <img src="./assets/img/icon_figma.png" alt="Figma logo" class="skill-img" loading="lazy" />
+        </div>
+      </div>
     </section>
-    <!-- Footer -->
-    <footer class="site-footer">
-        <div class="footer-content">
-            <p>© 2023 Joselyn Silva - Todos los derechos reservados</p>
-        </div>
-    </footer>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-  </body>
+  </section>
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-content">
+      <p>© 2025 Joselyn Silva Villarroel - Todos los derechos reservados</p>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
 </html>
